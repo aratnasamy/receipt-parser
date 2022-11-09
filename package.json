@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "receipt-parser": "file:receipt-parser"
+  }
+}
