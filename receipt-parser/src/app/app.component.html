@@ -1,3 +1,36 @@
-<p>Merp</p>
+<body class = "main">
+  <div class="header" style="z-index:100; position: fixed;">
+    <h1 class="title">Receipt Parser</h1>
+  </div>
+  <div class = "content">
+    <mat-tab-group mat-stretch-tabs class="example-stretched-tabs" color="accent" animationDuration="500ms">
+        <mat-tab label="Demo">
+          <div class="body">
+            Demo
+          </div>
+        </mat-tab>
+        <mat-tab label="About"> 
+          <div class="body">
+            <br><br><br>
+            <span class="numbers">57%</span>
+            <span class="sub"> of millennials ask for combined checks when dining out</span>
+            <br><br><br><br><br><br>
+            <span class="numbers">65%</span>
+            <span class="sub"> use cash apps to exchange money between friends</span>
+            <br><br><br>
+            <span style="display: inline-block; width: 50%;">
+              <p class = "text">
+                The problem that many face today when going out to eat or splitting any expense is that people don’t always end up paying their fair share.
+                We want to make it easier to split bills when you go to restaurants with friends or family. In a study conducted by Intuit Mint over Google Surveys in March of 2019, they found that 57% of millennials ask for combined checks when dining out. They also found that 65% of young people use cash apps regularly to exchange money with friends. As you can see, this is a problem facing the majority of milennials. There needs to be an easier way for people to split these combined checks fairly and evenly by leveraging cash transaction apps to transfer the money.
+  The solution that we’ve come up with is a receipt parsing application that can itemize all of the orders on the receipt and take tax and tip into consideration before determining how much each person owes. From here, a venmo request can be sent at a click of a button to each person in the group.
+  Such an application for computer vision can extend beyond splitting bills at restaurants and can be used with any expense where a physical receipt is given and would like to be split.
+  We can use computer vision and handwriting recognition to extend this capability to allow for handwritten tips. Specifically, we will leverage Optical Character Recognition (OCR) capabilities along with machine learning models to detect and recognize key information on the receipt. In order for OCR to function effectively and to perform information extraction, we need to perform preprocessing on the receipt because the receipt may contain wrinkles, creases, shadows, or other artifacts that would interfere with later analysis. Common preprocessing methods that we will employ include noise removal, thresholding, and greyscaling. These methods are essential to have a standardized image format to perform OCR on. We may have to use two different methods of OCR to detect data, as the template matching method may work well for printed numbers while performing poorly on handwritten characters. This study, https://www.researchgate.net/publication/352009952_The_Study_of_Handwriting_Recognition_Algorithms_Based_on_Neural_Networks, provides information and data on the accuracy of a handful of methods that can help us choose the right one. 
+              </p>
+            </span>
+          </div></mat-tab>
+      </mat-tab-group>
+    </div>  
+</body>
+
 
 <router-outlet></router-outlet>
