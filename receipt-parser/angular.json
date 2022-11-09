@@ -60,8 +60,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputHashing": "all",
-              "baseHref": "receipt-parser.github.io"
+              "outputHashing": "all"
             },
             "development": {
               "buildOptimizer": false,
