@@ -61,7 +61,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "home"
+              "baseHref": "receipt-parser.github.io"
             },
             "development": {
               "buildOptimizer": false,
