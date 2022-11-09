@@ -61,7 +61,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/"
+              "baseHref": "home"
             },
             "development": {
               "buildOptimizer": false,
