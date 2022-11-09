@@ -60,8 +60,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputHashing": "all",
-              "baseHref": "home"
+              "outputHashing": "all"
             },
             "development": {
               "buildOptimizer": false,
