@@ -15,10 +15,10 @@
           <div class="body">
             <br><br><br><br>
             <span class="numbers">57%</span>
-            <span class="sub"> of millennials ask for combined checks when dining out</span>
+            <span class="text"> of millennials ask for combined checks when dining out</span>
             <br><br><br><br><br><br>
             <span class="numbers">65%</span>
-            <span class="sub"> use cash apps to exchange money between friends</span>
+            <span class="text"> use cash apps to exchange money between friends</span>
             <br><br><br><br><br>
             <span style="display: inline-block; width: 50%;">
               <h2 class="sub">Why we made it</h2>
@@ -28,6 +28,14 @@
                 <br><br>
                 Our receipt parsing application can itemize all of the orders on the receipt and take tax and tip into consideration before determining how much each person owes.
                 Such an application for computer vision can extend beyond splitting bills at restaurants and can be used with any expense where a physical receipt is given and would like to be split.
+                <br><br> 
+              </p>
+              <h2 class="sub">Where we started</h2>
+              <p class = "text">
+                We decided to utilize google vision, an api to read data from the receipt, however there were limitations we had to account for. 
+                Google vision would give us pieces of the receipt as text as shown by the boxes in the image, but as you can see there is no linking between item name and it's corresponding price.
+                To accomplish this linking we found an item then checked to the right for a box, which assumes that the receipt is positioned vertically in the image or at least close.
+                Eventually we could use edge detection to find where the receipt is on the image and rotate it so that it is vertical.
                 <br><br> 
               </p>
               <h2 class="sub">How it works</h2>
