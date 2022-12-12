@@ -56,3 +56,18 @@
     color: rgb(224, 224, 213);
     text-decoration: underline;
 }
+
+.video {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.videobox {
+    width: 100%;
+    height: 10em;
+}
+
+.supersub {
+    font-size: 60px;
+}
